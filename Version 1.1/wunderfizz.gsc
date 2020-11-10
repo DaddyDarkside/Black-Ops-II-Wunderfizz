@@ -12,7 +12,7 @@ init()
 setupWunderfizz()
 {
 	level.wunderfizzChecksPower = getDvarIntDefault( "wunderfizzChecksPower", 1 );
-	level.wunderfizzCost = getDvarIntDefault("wunderfizzCost", 1500);
+	level.wunderfizzCost = getDvarIntDefault("wunderfizzCost", 750);
 	wunderfizzUseRandomStart = getDvarIntDefault("wunderfizzUseRandomStart", 0 );
 	level.wunderfizz_locations = 0;
 	if(wunderfizzUseRandomStart)
